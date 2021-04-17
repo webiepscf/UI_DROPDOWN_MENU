@@ -28,16 +28,20 @@
   margin-left: 0.5em;
 }
 .dropdown-content {
+  display: none;
   list-style: none;
   margin: 0;
   padding: 0;
+  background: #fff;
   border: #ddd 1px solid;
   border-radius: 5px;
-  display: inline-block;
   position: absolute;
   left: 0;
   top: 2em;
   min-width: 200px;
+}
+.dropdown-content.visible {
+  display: inline-block;
 }
 .dropdown-content a {
   display: block;
